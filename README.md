@@ -28,14 +28,23 @@ This model estimates the economic cost of injuries by borough (not insurance pre
 or payouts) and reveals how risk shifted during and after COVID.
 
 ## Limitations
-I originally set out to build a pricing model, but encountered factors beyond the current
-scope: policy limits, deductibles, insured population counts, and exposure denominators.
-The $35K cost assumption is a simplified placeholder to illustrate scale, not a modeled output.
+The data itself was incomplete. A large portion of records had no borough assigned 
+and I grouped these as "Unknown" and kept them in the model since removing them would 
+have biased my results given how prevalent they were.
 
-Ideally, this serves as a stepping stone toward a full expected loss model using actual
-claims data. The structural break at 2020 is a key signal — rising severity despite fewer
-crashes suggests insurers should consider higher reserves for recent policy years.
+I originally set out to build a pricing model but ran into factors beyond my current 
+scope: policy limits, deductibles, insured population counts, and exposure denominators. 
+The $35K cost assumption is a rough placeholder to illustrate scale, not a model output.
 
+Ideally, this is a stepping stone toward a full expected loss model using actual claims 
+data. The structural break at 2020 was the most important thing I found: rising severity 
+despite fewer crashes is a signal that models built on older assumptions may no longer 
+hold, and that we have to be ready to update them when the underlying risk changes.
+
+
+
+
+I am currently sitting for MAS-I, hoping to improve my statistical methods, and will recreate this project in R with additional features.
 
 
 
