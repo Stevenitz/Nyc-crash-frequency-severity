@@ -6,6 +6,8 @@ using Negative Binomial regression for crash frequency and Gamma GLM for injury 
 The Bronx in 2012 serves as the baseline. All boroughs 
 and year effects are interpreted relative to that reference point.
 
+# v2: Upgraded with new time features + 2026 out-of-sample validation.
+
 ## Data
 NYC Open Data — Motor Vehicle Collisions:
 https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes
