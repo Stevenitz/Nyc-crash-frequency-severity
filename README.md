@@ -15,9 +15,9 @@ https://catalog.data.gov/dataset/motor-vehicle-collisions-crashes
 - Assumed average cost of $35k per injury (medical bills, liabilities, fatalities, property damage, etc.)
 
 ## Key Findings
-- Brooklyn carries 2x the injury burden of Manhattan
-- Post-2020 structural break: frequency fell ~40%, severity doubled
-- Net result: only 7% reduction in total expected injuries despite far fewer crashes
+- Post-2020 structural break: daily crash frequency fell 49.5%, while injury severity per crash increased 59.1%.
+- Net result: total expected injuries declined only 19.7% despite far fewer crashes
+- 2026 out-of-sample validation: MAE 6.83, RMSE 9.32 injuries/day
 
 ## Motivation
 As I was studying for Exam P, I encountered many problems involving the Poisson distribution and enjoyed its properties. 
